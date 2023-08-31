@@ -8,6 +8,11 @@
     display:flex;
 }
 
+.experience-image{
+    max-width: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 .experience-text {
     padding-top: 50px;
@@ -26,6 +31,9 @@
         flex-direction: column;
     }
     .experience-image{
-        max-width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
     }
 }

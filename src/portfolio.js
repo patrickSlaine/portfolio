@@ -16,6 +16,7 @@ export const skills = {
     data: [
         {
             title: "C#/.NET Software Development",
+            image:"back-end.svg",
             skills: [
                 "💎 Developed Services using .NET 6 and Entity Framework Core.",
                 "💎 Used Docker to containerise Microservices.",
@@ -25,21 +26,24 @@ export const skills = {
         },
         {
             title: "React / Front-End Development",
+            image:"front-end.svg",
             skills: [
                 "💎 Developed responsive user interfaces which function are platform agnostic.",
                 "💎 Experienced with a variety of technologies including React, Javascript, OAuth & NPM.",
                 "💎 Integrated with Back-End services using axios.",
                 "💎 Experienced at hosting sites across a variety of Cloud Providers."
             ]
-        },
-        {
-            title: "E-Commerce Website Creation using Bluepark",
-            skills: [
-                "💎 Responsible for the creation of a Jewellery Store using Bluepark.",
-                "💎 Integrated the site with External Vendors e.g. PayPal, Klarna & Royal Mail.",
-                "💎 Utilised Search Engine Optimisation to improve the site's visability."
-            ]
-        }
+         }
+        //,
+
+        // {
+        //     title: "E-Commerce Website Creation using Bluepark",
+        //     skills: [
+        //         "💎 Responsible for the creation of a Jewellery Store using Bluepark.",
+        //         "💎 Integrated the site with External Vendors e.g. PayPal, Klarna & Royal Mail.",
+        //         "💎 Utilised Search Engine Optimisation to improve the site's visability."
+        //     ]
+        // }
     ]
 }
 

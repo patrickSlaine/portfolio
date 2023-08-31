@@ -5,8 +5,8 @@ export default function EducationTitles(props){
 
     return(
         <div className="education-main">
-            <div className="education-hat">
-                <ReactSVG src={require(`../../assets/images/graduationHat.svg`)}/>
+            <div className="education-image-div">
+                <img className="education-image" src={require(`../../assets/images/graduation.svg`)}/>
             </div>
             <div className="education-text">
                 <h1>

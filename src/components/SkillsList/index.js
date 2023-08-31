@@ -1,6 +1,8 @@
+import { ReactSVG } from "react-svg";
 import { skills } from "../../portfolio";
 import "./style.css";
 import React from "react";
+
 export default function SkillsList(props)
 {
     const theme = props.theme;
@@ -14,6 +16,12 @@ export default function SkillsList(props)
             {skills.data.map((skill)=>{
                return (
                 <div className="skills-main-div">
+                    <div className="skills-image-div">
+                        <img 
+                            className="skills-image"
+                            src={require(`../../assets/images/${skill.image}`)}
+                        />
+                    </div>
                     <div className="skill-text-div">
                         <h1 className="skill-heading" style={{color: theme.text}}>
                             {skill.title}

@@ -6,9 +6,13 @@ export default function ProjectsIntroduction(props){
     
     return(
         <div className="projects-main">
-            <div className="projects-image">
+            {/* <div className="projects-image">
                 <ReactSVG src={require(`../../assets/images/projectsImage.svg`)}/>
-            </div>
+            </div> */}
+            <img
+                className="projects-image"
+                src={require(`../../assets/images/projectsImage.svg`)}
+            />
             <div className="projects-text">
                 <h1>
                     Projects

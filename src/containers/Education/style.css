@@ -8,9 +8,12 @@
   display:flex;
 }
 
-.education-hat {
+.education-image-div{
   margin:50px;
-  max-width: 100%;
+}
+
+.education-image{
+  max-width: 750px;
 }
 
 .education-text {
@@ -32,4 +35,15 @@
   .education-main{
     flex-direction: column;
   }
+
+  .education-image-div{
+    margin: 0px;
+  }
+  .education-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
 }
