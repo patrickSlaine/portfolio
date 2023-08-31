@@ -66,7 +66,7 @@ function Header(props) {
           <NavLink tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
             <span className="logo-name" style={{ color: theme.text }}>
-              {introduction.logo_name}
+            {introduction.logo_name}
             </span>
             <span style={{ color: theme.text }}></span>
           </NavLink>
@@ -83,7 +83,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Home
+                {"<Home/>"}
               </NavLink>
             </li>
             <li>
@@ -94,7 +94,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Education and Certifications
+                {"<Education/>"}
               </NavLink>
             </li>
             <li>
@@ -105,7 +105,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Experience
+                {"<Experience/>"}
               </NavLink>
             </li>
             <li>
@@ -116,7 +116,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Projects
+                {"<Projects/>"}
               </NavLink>
             </li>
             <li>
@@ -127,7 +127,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contact and Resume
+                {"<Contact And CV/>"}
               </NavLink>
             </li>
             <button {...styles} onClick={changeTheme}>

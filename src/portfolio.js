@@ -2,7 +2,7 @@
 export const introduction = {
     title: "Hello",
     title2: "Patrick",
-    logo_name: "PatrickSlaine;",
+    logo_name: "PatrickSlaine",
     fullName: "Patrick Slaine",
     subTitle: "Software Engineer - 1st Class Honors, Aspiring to build upon my .NET development experience"
 }
