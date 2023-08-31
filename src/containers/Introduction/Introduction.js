@@ -2,6 +2,7 @@ import React from "react";
 import {introduction} from "../../portfolio";
 import "./Introduction.css";
 import SocialMedia from "../../components/SocialMedia";
+import { ReactSVG } from "react-svg";
 
 export default function Introduction(props){
     const theme = props.theme;
@@ -14,9 +15,9 @@ export default function Introduction(props){
                         {introduction.title}
                     </h1>
                     <p className="introduction-text-p" style={{color: theme.secondaryText}}>
-                        <span>I'm</span>
+                        <span>I'm </span>
                         <span style={{ color: theme.accentColor}}>
-                            {introduction.fullName}
+                            {introduction.fullName}{" "}
                         </span>
                         <span>
                             {introduction.subTitle}
@@ -24,8 +25,8 @@ export default function Introduction(props){
                     </p>
                     <SocialMedia/>                    
                 </div>
-                <div>
-
+                <div className="introduction-image">
+                    <ReactSVG src={require(`../../assets/images/homePageImage.svg`)}/>
                 </div>
             </div>
         </div>

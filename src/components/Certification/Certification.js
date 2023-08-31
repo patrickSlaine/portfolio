@@ -15,7 +15,7 @@ export default function Certification(props){
     });
 
     return(
-        <div className="cert-card">
+        <div {...styles}className="cert-card">
             <div className="content">
                 <a
                     href={certificate.certificate_link}

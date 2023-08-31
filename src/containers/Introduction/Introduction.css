@@ -74,6 +74,10 @@
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+
+.introduction-image{
+  max-width: 500px;
+}
   
   /* Media Query */
   @media (max-width: 1380px) {

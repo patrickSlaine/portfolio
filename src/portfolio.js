@@ -70,7 +70,7 @@ export const certifications = {
             logo_path:"microsoft.jpg",
             certificate_link:"https://www.credly.com/badges/0b46558d-214e-43d5-a251-aa80c89e259f/linked_in_profile",
             alt_name:"Microsoft",
-            color_code:"",
+            color_code:"#ffffff",
         },
         {
             title:"Mendix Rapid Developer",
@@ -78,7 +78,7 @@ export const certifications = {
             logo_path:"mendix.jpg",
             certificate_link:"",
             alt_name:"Mendix",
-            color_code:"",
+            color_code:"#146ff4",
         },
         {
             title:"Communicating Persuasively & Building Trust",
@@ -86,7 +86,7 @@ export const certifications = {
             logo_path:"stanford.jpg",
             certificate_link:"",
             alt_name:"Stanford",
-            color_code:"",
+            color_code:"#a4001e",
         },
         {
             title:"Alteryx Designer Core Certified",
@@ -94,7 +94,7 @@ export const certifications = {
             logo_path:"alteryx.jpg",
             certificate_link:"https://s3.us-east-2.amazonaws.com/ayx.certificates2/20210810_AlterxDesignerCoreMjU4ODUwOmRlc2lnbmVLWNvcmU6Nkx.pdf",
             alt_name:"Alteryx",
-            color_code:"",
+            color_code:"#ffffff",
         },
         {
             title:"Microsoft Certified: Azure Fundamentals",
@@ -102,7 +102,7 @@ export const certifications = {
             logo_path:"microsoft.jpg",
             certificate_link:"https://www.credly.com/badges/30a4d136-bbb8-4f54-8294-8e6d9080b510/linked_in_profile",
             alt_name:"Microsoft",
-            color_code:"",  
+            color_code:"#ffffff",  
         },
         {
             title:"UiPath Certified RPA Associate v1.0 (UiRPA)",
@@ -110,7 +110,7 @@ export const certifications = {
             logo_path:"uipath.jpg",
             certificate_link:"",
             alt_name:"UiPath",
-            color_code:"",
+            color_code:"#fa4616",
         },
         {
             title:"BDD-Masterclass",
@@ -118,7 +118,7 @@ export const certifications = {
             logo_path:"specflow.jpg",
             certificate_link:"https://specflow.org/community/webinars/certificate/?c=4a6a5ebe669ad0e5d502c929a",
             alt_name:"SpecFlow",
-            color_code:"",
+            color_code:"#ffffff",
         },
         {
             title: "Getting Started With SpecFlow in Visual Studio",
@@ -126,7 +126,7 @@ export const certifications = {
             logo_path:"specflow.jpg",
             certificate_link:"https://specflow.org/community/webinars/certificate/?c=a792a72d54f5b0095163a4ffe",
             alt_name:"SpecFlow",
-            color_code:"",
+            color_code:"#ffffff",
         },
         {
             title: "Microsoft Certified: Data Analyst Associate",
@@ -134,7 +134,7 @@ export const certifications = {
             logo_path:"microsoft.jpg",
             certificate_link: "https://www.credly.com/badges/7516c1ad-3ab0-45c9-a7f4-d98cfa4d8e2d/public_url",
             alt_name: "Microsoft",
-            color_code:""
+            color_code:"#ffffff"
         }
     ]
 }

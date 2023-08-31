@@ -13,7 +13,7 @@ export default function Certifications(props){
                     Certifications
                 </h1>
             </div>
-            <div className="cert-body-div">
+            <div className="certs-body-div">
                 {certifications.certifications.map((cert,index)=>{
                     return <Certification key={index} certificate={cert} theme={theme}/>
                 })}
