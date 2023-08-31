@@ -1,0 +1,146 @@
+.main {
+    width: 100%;
+    padding: 0px 10px;
+    margin: 0px auto;
+    margin-top: 4rem;
+  }
+  
+  .intro-main {
+    max-width: 1370px;
+    padding: 10px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+    display: block;
+  }
+  
+  .introduction-main {
+    display: flex;
+  }
+  
+  .introduction-main > * {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  
+  .button-greeting-div {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .introduction-text {
+    margin-top: 110px;
+    font-size: 70px;
+    line-height: 5px;
+    font-family: "Google Sans Bold";
+    padding-bottom: 25px;
+  }
+  
+  .introduction-nickname {
+    font-size: 30px;
+    line-height: 0px;
+    font-family: "Google Sans Bold Italic";
+  }
+  
+  .introduction-text-p {
+    font-size: 30px;
+    line-height: 40px;
+    margin-right: 40px;
+    font-family: "Google Sans Medium";
+  }
+  
+  .greeting-image-div > * {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .wave-emoji {
+    display: inline-block;
+    animation: wave 1.8s infinite;
+  }
+  
+  .button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 15px;
+    margin-top: 25px;
+    border-radius: 4px;
+    border-width: 0px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-family: "Google Sans Regular";
+    font-size: 17px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  /* Media Query */
+  @media (max-width: 1380px) {
+    .introduction-text {
+      font-size: 50px;
+    }
+  
+    .introduction-text-p {
+      font-size: 20px;
+    }
+  
+    .intro-main {
+      max-width: 900px;
+    }
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(-10deg);
+    }
+    20% {
+      transform: rotate(12deg);
+    }
+    30% {
+      transform: rotate(-10deg);
+    }
+    40% {
+      transform: rotate(9deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .button-greeting-div {
+      justify-content: space-around;
+    }
+    .introduction-text {
+      font-size: 30px;
+      margin-top: 0px;
+      text-align: center;
+    }
+    .introduction-nickname {
+      font-size: 25px;
+      text-align: center;
+    }
+    .introduction-text-p {
+      font-size: 16px;
+      margin-right: 0px;
+      line-height: normal;
+      text-align: center;
+    }
+    .introduction-main {
+      display: block;
+    }
+  
+    .portfolio-repo-btn-div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+  }

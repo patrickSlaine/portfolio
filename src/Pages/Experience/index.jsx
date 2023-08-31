@@ -1,0 +1,25 @@
+import React from "react";
+import Header from "../../components/Header";
+import JobHistory from "../../containers/Experience/JobHistory";
+import Footer from "../../components/Footer";
+
+export default function Experience(props){
+
+    return (
+        <>
+            <div>
+                <Header
+                    theme={props.theme}
+                    setTheme={props.setTheme}
+                />
+                <JobHistory
+                    theme={props.theme}
+                    setTheme={props.setTheme}
+                />
+                <Footer
+                    theme={props.theme}
+                />
+            </div>
+        </>
+    )
+}

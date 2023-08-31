@@ -1,0 +1,61 @@
+.contact-main>*{
+    flex:1;
+    margin-bottom: 30px;
+}
+
+.contact-main{
+    display:flex;
+    font-family: "Google Sans Medium";
+}
+
+.contact-image{
+    margin:50px 0px 0px 250px;
+    max-width: 100%;
+}
+
+.image{
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #353535;
+}
+
+.contact-text{
+    margin-right:auto;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.contact-text h1{
+    font-size: 50px;
+}
+
+.contact-text p{
+    font-size: 20px;
+}
+
+.contact-text > *{
+    flex:1;
+}
+
+@media(max-width:768px){
+    .contact-text{
+        padding:50px;
+    }
+    .contact-main{
+        flex-direction: column;
+    }
+    .contact-image{
+        margin: auto;
+        
+    }
+
+    .contact-text h1{
+        font-size:32px;
+    }
+
+    .image{
+        max-width: 300px;
+    }
+}

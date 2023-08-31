@@ -1,0 +1,137 @@
+.email{
+    margin-top: 150px;
+}
+
+.email-header{
+    text-align: center;
+}
+
+.email-header h1{
+    font-size: 50px;
+}
+
+.email-main{
+    margin: 30px;
+    position: relative;
+    background: #3e3e3e;
+    border-radius: 15px;
+}
+  
+.email-main:after {
+content: '';
+display: block;
+position: absolute;
+top: 0;
+left: 20px;
+right: 20px;
+bottom: 0;
+border-radius: 15px;
+box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+z-index: -1;
+}
+
+
+.screen-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #4d4d4f;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.screen-header-light {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background:
+            rgba(163, 163, 163, 1) 100%
+        ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+  
+.email-topbar-left{
+    margin-right: auto;
+}
+
+.email-topbar-button{
+    display: inline-block;
+    width:8px;
+    height: 8px;
+    margin-right:3px;
+    border-radius: 8px;
+    background: white;
+}
+
+.email-topbar-button.close{
+    background: red;
+}
+
+.email-topbar-button.maximize{
+    background: orange;
+}
+
+.email-topbar-button.minimize{
+    background: green;
+}
+
+.email-topbar-right{
+    display:flex;
+}
+
+.screen-header-ellipsis{
+    width:3px;
+    height:3px;
+    margin-left: 2px;
+    border-radius: 8px;
+    background: #999;
+}
+
+.screen-body {
+    display: flex;
+  }
+  
+.screen-body-light {
+    display: flex;
+    background: 
+          rgba(230, 230, 230, 1) 0%;
+  }
+
+.screen-body-item{
+    flex:1;
+    padding: 50px;
+}
+
+.form-labels{
+    font-family: "Google Sans Medium";
+  }
+.form-text{
+    font-family: "Google Sans Medium";
+  }
+  
+.general-btn {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 15px;
+    margin-top: 25px;
+    border-radius: 4px;
+    border-width: 0px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-family: "Google Sans Regular";
+    font-size: 17px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+@media(max-width:768px){
+    .email{
+        margin-top: 0px;
+    }
+
+    .email-header h1{
+        font-size: 32px;
+    }
+}

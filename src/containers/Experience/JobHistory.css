@@ -1,0 +1,31 @@
+
+.experience-main > * {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.experience-main {
+    display:flex;
+}
+
+
+.experience-text {
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.experience-text > * {
+    flex: 1;
+}
+
+@media (max-width: 768px){
+    .experience-text{
+        padding: 50px;
+    }
+    .experience-main{
+        flex-direction: column;
+    }
+    .experience-image{
+        max-width: 150px;
+    }
+}
