@@ -10,7 +10,7 @@ export default function Introduction(props){
     return (
         <div className="intro-main" id="introduction">
             <div className="introduction-main">
-                <div>
+                <div className="introduction-text-div">
                     <h1 className="introduction-text">
                         {introduction.title}
                     </h1>
@@ -25,9 +25,7 @@ export default function Introduction(props){
                     </p>
                     <SocialMedia/>                    
                 </div>
-                <div className="introduction-image">
-                    <ReactSVG src={require(`../../assets/images/homePageImage.svg`)}/>
-                </div>
+                <img className="introduction-image" src={require(`../../assets/images/homePageImage.svg`)}/>
             </div>
         </div>
     )

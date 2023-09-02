@@ -75,8 +75,14 @@
     cursor: pointer;
   }
 
+.introduction-text-div{
+  flex: 1;
+}
+
 .introduction-image{
-  max-width: 500px;
+    width:40%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
   
   /* Media Query */
@@ -146,5 +152,12 @@
       display: flex;
       justify-content: center;
       text-align: center;
+    }
+
+    .introduction-image{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
     }
   }
