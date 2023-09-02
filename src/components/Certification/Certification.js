@@ -1,6 +1,6 @@
 import React from "react";
 import {style} from "glamor";
-import "./Certification.css";
+import "./style.css";
 
 export default function Certification(props){
     const certificate = props.certificate;
