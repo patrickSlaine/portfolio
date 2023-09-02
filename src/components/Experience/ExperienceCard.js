@@ -1,5 +1,5 @@
 import React from "react";
-import "./ExperienceCard.css";
+import "./style.css";
 
 export default function ExperienceCard(props){
     const job = props.job;

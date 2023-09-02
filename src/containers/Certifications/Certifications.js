@@ -1,5 +1,5 @@
 import React from "react";
-import "./Certifications.css";
+import "./style.css";
 import {certifications} from "../../portfolio";
 import Certification from "../../components/Certification/Certification";
 

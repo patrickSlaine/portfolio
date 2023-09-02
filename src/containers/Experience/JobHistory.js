@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactSVG } from "react-svg";
-import "./JobHistory.css";
+import "./style.css";
 import { experience } from "../../portfolio";
 import ExperienceCard from "../../components/Experience/ExperienceCard";
 

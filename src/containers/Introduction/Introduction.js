@@ -1,6 +1,6 @@
 import React from "react";
 import {introduction} from "../../portfolio";
-import "./Introduction.css";
+import "./style.css";
 import SocialMedia from "../../components/SocialMedia";
 import { ReactSVG } from "react-svg";
 
