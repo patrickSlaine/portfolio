@@ -1,15 +1,12 @@
 import React from "react";
 import "./style.css";
-import { ReactSVG } from "react-svg";
 
 export default function ProjectsIntroduction(props){
     
     return(
         <div className="projects-main">
-            {/* <div className="projects-image">
-                <ReactSVG src={require(`../../assets/images/projectsImage.svg`)}/>
-            </div> */}
             <img
+                alt=""
                 className="projects-image"
                 src={require(`../../assets/images/projectsImage.svg`)}
             />

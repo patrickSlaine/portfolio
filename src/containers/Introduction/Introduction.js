@@ -2,7 +2,6 @@ import React from "react";
 import {introduction} from "../../portfolio";
 import "./style.css";
 import SocialMedia from "../../components/SocialMedia";
-import { ReactSVG } from "react-svg";
 
 export default function Introduction(props){
     const theme = props.theme;
@@ -25,7 +24,7 @@ export default function Introduction(props){
                     </p>
                     <SocialMedia/>                    
                 </div>
-                <img className="introduction-image" src={require(`../../assets/images/homePageImage.svg`)}/>
+                <img className="introduction-image" alt="" src={require(`../../assets/images/homePageImage.svg`)}/>
             </div>
         </div>
     )

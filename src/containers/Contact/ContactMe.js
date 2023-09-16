@@ -1,6 +1,5 @@
 import React from "react";
 import { style } from "glamor";
-import {ReactSVG} from "react-svg";
 import SocialMedia from "../../components/SocialMedia";
 import "./style.css";
 
@@ -34,6 +33,7 @@ export  default function ContactMe(props){
         <div className="contact-main">
             <div className="contact-image">
                 <img className="image"
+                    alt=""
                     src={require(`../../assets/images/patrick-graduation.jpg`)}
                 />
             </div>

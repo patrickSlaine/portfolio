@@ -6,7 +6,7 @@ export default function Footer(props){
         <div className="footer">
             <div className="footer-text">
                 <h4 style={{color:props.theme.secondaryText}}>
-                Made using <span role="img">⚛️</span> by Patrick Slaine
+                Made using <span aria-label="" role="img">⚛️</span> by Patrick Slaine
                 </h4>
             </div>
         </div>

@@ -1,4 +1,3 @@
-import { ReactSVG } from "react-svg";
 import { skills } from "../../portfolio";
 import "./style.css";
 import React from "react";
@@ -18,6 +17,7 @@ export default function SkillsList(props)
                 <div className="skills-main-div">
                     <div className="skills-image-div">
                         <img 
+                            alt=""
                             className="skills-image"
                             src={require(`../../assets/images/${skill.image}`)}
                         />

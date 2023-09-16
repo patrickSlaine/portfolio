@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactSVG } from "react-svg";
 import "./style.css";
 import { experience } from "../../portfolio";
 import ExperienceCard from "../../components/Experience/ExperienceCard";
@@ -10,18 +9,10 @@ export default function JobHistory(props){
         <div>
             <div className="experience-main">
                 <img 
+                    alt=""
                     className="experience-image"
                     src={require(`../../assets/images/experience.svg`)}
                 />
-                    {/* <ReactSVG 
-                        src={require(`../../assets/images/experience.svg`)}
-                        beforeInjection={(svg) => {
-                            svg.setAttribute('style', 'width: 300px')
-                            svg.setAttribute('style', 'height: 300px')
-                            svg.setAttribute('style','max-width:300px')
-                            svg.setAttribute('style','max-height:300px')
-                        }}
-                    /> */}
                 <div className="experience-text">
                     <h1>
                         {experience["title"]}

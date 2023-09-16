@@ -1,12 +1,11 @@
 import React from "react";
-import { ReactSVG } from "react-svg";
 import "./style.css";
 export default function EducationTitles(props){
 
     return(
         <div className="education-main">
             <div className="education-image-div">
-                <img className="education-image" src={require(`../../assets/images/graduation.svg`)}/>
+                <img className="education-image" alt="" src={require(`../../assets/images/graduation.svg`)}/>
             </div>
             <div className="education-text">
                 <h1>

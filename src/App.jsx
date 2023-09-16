@@ -15,7 +15,6 @@ function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
   
 const Home = WithSuspense(lazy(()=> import("./Pages/Home")));
-const Error = WithSuspense(lazy(()=> import("./Pages/Error")));
 
   return (
     <ThemeProvider theme={themes[theme]}>
