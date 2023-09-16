@@ -157,7 +157,7 @@ export const experience = {
                 logo_path:"citi.svg",
                 duration:"September 2023 - Present",
                 location:"Belfast",
-                description:"",
+                description:"Working within Global Functions Technology, I gained experience developing and testing batch processing applications using Java and Apache Sparks. The Big Data applications that I developed processed data on a daily basis.",
                 color:"#0071C5"
             },
             {

@@ -21,8 +21,7 @@
     "react-svg": "^16.1.22",
     "styled-components": "^5.2.1",
     "web-vitals": "^2.1.4",
-    "emailjs-com": "^3.2.0",
-    "react-toastify": "^7.0.4"
+    "emailjs-com": "^3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
