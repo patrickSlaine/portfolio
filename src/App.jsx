@@ -12,7 +12,7 @@ import Projects from './Pages/Projects';
 
 function App() {
 
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const [theme, setTheme] = useState("dark");
   
 const Home = WithSuspense(lazy(()=> import("./Pages/Home")));
 

@@ -1,22 +1,22 @@
 // Theme Presets
 
-const lightTheme = {
-    name: "light",
-    body: "#FFFFFF",
-    text: "#343434",
-    dark: "#000000",
-    secondaryText: "#7F8DAA",
-    accentColor: "#E3405F",
-    pcColor: "#86C232",
-    accentBright: "#FC1056",
-    projectCard: "#DCE4F2",
-    skinColor: "#F7B799",
-    skinColor2: "#FCB696",
-    imageDark: "#dce4f2",
-    imageClothes: "#dce4f2",
-    avatarMisc: "#e9ecf2",
-    avatarShoes: "#ccd2e3",
-  };
+// const lightTheme = {
+//     name: "light",
+//     body: "#FFFFFF",
+//     text: "#343434",
+//     dark: "#000000",
+//     secondaryText: "#7F8DAA",
+//     accentColor: "#E3405F",
+//     pcColor: "#86C232",
+//     accentBright: "#FC1056",
+//     projectCard: "#DCE4F2",
+//     skinColor: "#F7B799",
+//     skinColor2: "#FCB696",
+//     imageDark: "#dce4f2",
+//     imageClothes: "#dce4f2",
+//     avatarMisc: "#e9ecf2",
+//     avatarShoes: "#ccd2e3",
+//   };
   
   const darkTheme = {
     name: "dark",
@@ -36,4 +36,4 @@ const lightTheme = {
     avatarShoes: "#2B2B2B",
   };
   
-  export const themes = { light: lightTheme, dark: darkTheme };
+  export const themes = { dark: darkTheme };

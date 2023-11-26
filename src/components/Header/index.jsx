@@ -32,33 +32,33 @@ function Header(props) {
 
   const [currTheme, setCurrTheme] = useState(props.theme);
 
-  function changeTheme() {
-    if (currTheme === "light") {
-      props.setTheme("dark");
-      localStorage.setItem("theme", "dark");
-      setCurrTheme("dark");
-    } else {
-      props.setTheme("light");
-      localStorage.setItem("theme", "light");
-      setCurrTheme("light");
-    }
-  }
+  // function changeTheme() {
+  //   if (currTheme === "light") {
+  //     props.setTheme("dark");
+  //     localStorage.setItem("theme", "dark");
+  //     setCurrTheme("dark");
+  //   } else {
+  //     props.setTheme("light");
+  //     localStorage.setItem("theme", "light");
+  //     setCurrTheme("light");
+  //   }
+  // }
 
 
-  const icon =
-    props.theme.name === "dark" ? (
-      <HiMoon
-        strokeWidth={1}
-        size={20}
-        color={props.theme.name === "light" ? "#F9D784" : "#A7A7A7"}
-      />
-    ) : (
-      <CgSun
-        strokeWidth={1}
-        size={20}
-        color={props.theme.name === "light" ? "#F9D784" : "#A7A7A7"}
-      />
-    );
+  // const icon =
+  //   props.theme.name === "dark" ? (
+  //     <HiMoon
+  //       strokeWidth={1}
+  //       size={20}
+  //       color={props.theme.name === "light" ? "#F9D784" : "#A7A7A7"}
+  //     />
+  //   ) : (
+  //     <CgSun
+  //       strokeWidth={1}
+  //       size={20}
+  //       color={props.theme.name === "light" ? "#F9D784" : "#A7A7A7"}
+  //     />
+  //   );
 
   return (
       <div>
@@ -130,9 +130,9 @@ function Header(props) {
                 {"<Contact And CV/>"}
               </NavLink>
             </li>
-            <button {...styles} onClick={changeTheme}>
+            {/* <button {...styles} onClick={changeTheme}>
               {icon}
-            </button>
+            </button> */}
           </ul>
         </header>
       </div>
