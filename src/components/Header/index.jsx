@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./style.css";
 import { NavLink, Link } from "react-router-dom";
-import { style } from "glamor";
 import {introduction} from "../../portfolio";
 
 function Header(props) {
