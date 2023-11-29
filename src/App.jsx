@@ -1,7 +1,7 @@
 import './App.css';
 import React,{useState,lazy} from 'react';
 import WithSuspense from "./components/WithSuspense";
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import { themes } from "./theme";
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from "./global";
@@ -19,7 +19,7 @@ const Home = WithSuspense(lazy(()=> import("./Pages/Home")));
   return (
     <ThemeProvider theme={themes[theme]}>
       <GlobalStyles/>
-      <HashRouter basename="/">
+      <BrowserRouter basename="/">
         <Routes>
           <Route
             path="/"
@@ -56,8 +56,13 @@ const Home = WithSuspense(lazy(()=> import("./Pages/Home")));
                       theme={themes[theme]}
                       setTheme={setTheme}/>}
           />
+          <Route 
+            path="*" 
+            element={
+            <Navigate to="/"/>}
+           />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
