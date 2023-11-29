@@ -59,7 +59,7 @@ const Home = WithSuspense(lazy(()=> import("./Pages/Home")));
           <Route 
             path="*" 
             element={
-            <Navigate to="/" replace/>}
+            <Navigate to="/"/>}
            />
         </Routes>
       </BrowserRouter>
