@@ -59,6 +59,10 @@
     .degree-card {
       flex-direction: column;
     }
+
+    .content-list {
+      font-size: 20px;
+    }
   
     .body-header {
       flex-direction: column;

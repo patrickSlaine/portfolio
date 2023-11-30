@@ -68,7 +68,9 @@
       width: 70%;
       padding-right: 0px;
     }
-
+    .skill-sentence{
+      font-size: 18px;
+    }
     .skills-heading {
       font-size: 30px;
       text-align: center;
