@@ -6,10 +6,12 @@ export default function EducationTitles(props){
 
     return(
         <div className="education-main">
-            <Fade bottom duration={3000}>
+            <Fade left duration={3000}>
                 <div className="education-image-div">
-                    <img className="education-image" alt="" src={require(`../../assets/images/graduation.svg`)}/>
+                    <img className="education-image" alt="" src={require(`../../assets/images/graduation.svg`).default}/>
                 </div>
+            </Fade>
+            <Fade right duration={3000}>
                 <div className="education-text">
                     <h1>
                         Education

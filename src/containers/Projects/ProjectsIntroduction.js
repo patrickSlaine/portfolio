@@ -10,7 +10,7 @@ export default function ProjectsIntroduction(props){
                 <img
                     alt=""
                     className="projects-image"
-                    src={require(`../../assets/images/projectsImage.svg`)}
+                    src={require(`../../assets/images/projectsImage.svg`).default}
                 />
             </Fade>
             <Fade right duration={3000}>
