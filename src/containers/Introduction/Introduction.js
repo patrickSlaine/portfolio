@@ -10,7 +10,7 @@ export default function Introduction(props){
     return (
         <div className="intro-main" id="introduction">
             <div className="introduction-main">
-                <Fade bottom duration={3000}>
+                <Fade left duration={3000}>
                     <div className="introduction-text-div">
                         <h1 className="introduction-text">
                             {introduction.title}
@@ -26,8 +26,10 @@ export default function Introduction(props){
                         </p>
                         <SocialMedia/>                    
                     </div>
-                    </Fade>    
-                <img className="introduction-image" alt="" src={require(`../../assets/images/homePageImage.svg`)}/>
+                    </Fade>
+                    <Fade right duration={3000}>
+                        <img className="introduction-image" alt="" src={require(`../../assets/images/homePageImage.svg`)}/>
+                    </Fade>  
             </div>
         </div>
     )
