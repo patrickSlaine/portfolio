@@ -26,10 +26,10 @@ export default function Introduction(props){
                         </p>
                         <SocialMedia/>                    
                     </div>
-                    </Fade>
-                    <Fade right duration={3000}>
-                        <img className="introduction-image" alt="" src={require(`../../assets/images/homePageImage.svg`)}/>
-                    </Fade>  
+                </Fade>
+                <Fade right duration={3000}>
+                    <img className="introduction-image" alt="" src={require(`../../assets/images/homePageImage.svg`).default}/>
+                </Fade>
             </div>
         </div>
     )

@@ -13,7 +13,7 @@ export default function JobHistory(props){
                     <img 
                         alt=""
                         className="experience-image"
-                        src={require(`../../assets/images/experience.svg`)}
+                        src={require(`../../assets/images/experience.svg`).default}
                     />
                 </Fade>
                 <Fade right duration={3000}>
