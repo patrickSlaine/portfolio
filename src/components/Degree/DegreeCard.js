@@ -1,6 +1,7 @@
 import React from "react";
 import { style } from "glamor";
 import "./style.css"
+import Fade from "react-reveal";
 
 export default function DegreeCard(props){
     const degree = props.degree;
@@ -71,6 +72,7 @@ export default function DegreeCard(props){
   
   return (
     <div className="degree-card">
+      <Fade left duration={3000}>
         <div {...style_img}>
           <img
             style={{
@@ -82,6 +84,8 @@ export default function DegreeCard(props){
             alt={degree.alt_name}
           />
         </div>
+      </Fade>
+      <Fade right duration={3000}>
         <div {...card_body}>
           <div
             className="body-header"
@@ -133,6 +137,7 @@ export default function DegreeCard(props){
             </a>
           </div>
         </div>
+      </Fade>
     </div>
   );
 }

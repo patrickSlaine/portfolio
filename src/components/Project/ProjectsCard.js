@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import {style} from "glamor";
+import Fade from "react-reveal";
 
 export default function ProjectsCard(props){
 
@@ -28,36 +29,38 @@ export default function ProjectsCard(props){
     
 
     return(
-        <div className="flex-container">
-            <div
-                {...styles}
-                key={project.id}
-                onClick={()=>openNewWindow(project.url)}
-                style={{backgroundColor:theme.projectCard, overflow:"auto"}}
-            >
-                <div className="repo-name-div">
-                    <p className="repo-name" style={{color:theme.text}}>
-                        {project.name}
-                    </p>
-                </div>
-                <div className="repo-description-container" style={{}}>
-                    {" "}
-                    <p className="repo-status" style={{color:theme.text}}>
-                        {project.status}
-                    </p>
-                    {project.descriptions.map((sentence,index)=>{
-                        return(
-                            <p
-                            key={index}
-                            className="repo-description"
-                            style={{color:theme.text}}
-                            >
-                                {sentence}
-                            </p>
-                        )
-                    })}
+        <Fade bottom duration={6000}>
+            <div className="flex-container">
+                <div
+                    {...styles}
+                    key={project.id}
+                    onClick={()=>openNewWindow(project.url)}
+                    style={{backgroundColor:theme.projectCard, overflow:"auto"}}
+                >
+                    <div className="repo-name-div">
+                        <p className="repo-name" style={{color:theme.text}}>
+                            {project.name}
+                        </p>
+                    </div>
+                    <div className="repo-description-container" style={{}}>
+                        {" "}
+                        <p className="repo-status" style={{color:theme.text}}>
+                            {project.status}
+                        </p>
+                        {project.descriptions.map((sentence,index)=>{
+                            return(
+                                <p
+                                key={index}
+                                className="repo-description"
+                                style={{color:theme.text}}
+                                >
+                                    {sentence}
+                                </p>
+                            )
+                        })}
+                    </div>
                 </div>
             </div>
-        </div>
+        </Fade>
     )
 }
