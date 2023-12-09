@@ -1,0 +1,23 @@
+{
+    "navigationFallback": {
+      "rewrite": "/index.html",
+      "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+    },
+    "routes":[
+        {
+            "route":"/"
+        },
+        {
+            "route":"/education"
+        },
+        {
+            "route":"/experience"
+        },
+        {
+            "route":"/projects"
+        },
+        {
+            "route":"/contact"
+        }
+    ]
+  }
