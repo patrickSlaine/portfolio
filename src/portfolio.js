@@ -4,7 +4,7 @@ export const introduction = {
     title2: "Patrick",
     logo_name: "PatrickSlaine",
     fullName: "Patrick Slaine",
-    subTitle: "Software Engineer - 1st Class Honors, Aspiring to build upon my .NET development experience"
+    subTitle: "Software Engineer - 1st Class Honors, Aspiring to build upon my Full-Stack Software Development skills."
 }
 
 export const socialMediaLinks = {
@@ -34,16 +34,6 @@ export const skills = {
                 "💎 Experienced at hosting sites across a variety of Cloud Providers."
             ]
          }
-        //,
-
-        // {
-        //     title: "E-Commerce Website Creation using Bluepark",
-        //     skills: [
-        //         "💎 Responsible for the creation of a Jewellery Store using Bluepark.",
-        //         "💎 Integrated the site with External Vendors e.g. PayPal, Klarna & Royal Mail.",
-        //         "💎 Utilised Search Engine Optimisation to improve the site's visability."
-        //     ]
-        // }
     ]
 }
 
@@ -145,19 +135,19 @@ export const certifications = {
 
 export const experience = {
     title:"Experience and Work History",
-    description:"Throughout my time as an undergraduate at Queen's University, I gained experience with PriceWaterhouseCooper as part of my Technology Degree Apprenticeship. Following the conclusion of University, I joined CitiBank as a Technology Analyst in-order to gain experience within the Financial Sector.",
+    description:"Throughout my time as an undergraduate at Queen's University, I gained experience with PriceWaterhouseCooper as part of my Technology Degree Apprenticeship. Following the conclusion of University, I joined Citi as a Software Engineer in-order to gain experience within the Financial Sector.",
     header_image_path:"experience.svg",
     sections:{
         title:"Work Experience",
         experiences:[
             {
-                title:"Junior Software Engineer",
-                company:"CitiBank",
+                title:"Software Engineer",
+                company:"Citi",
                 company_url:"https://www.citigroup.com/global",
                 logo_path:"citi.svg",
                 duration:"September 2023 - Present",
                 location:"Belfast",
-                description:"Working within Global Functions Technology, I gained experience developing and testing batch processing applications using Java and Apache Sparks. The Big Data applications that I developed processed data on a daily basis.",
+                description:"Within the Operations & Technology sector, I am actively engaged in the development of Big Data Applications using Java, Bash, Apache Spark, and Hadoop. My role within the Agile framework involves robust support for applications during production releases. I have further honed my capabilities by acquiring expertise in Jenkins, Hive, and Autosys platforms.",
                 color:"#0071C5"
             },
             {
@@ -209,7 +199,7 @@ export const projects = {
                 "💎 Used a variety of technologies including Python, React, Azure App Service and Azure Functions.",
                 "💎 Azure Functions was leveraged to run algorithms based on HTTP and Timer triggers.",
                 "💎 Azure Blob Storage was used to store a large volume of images.",
-                "💎 Used a variety of Javascript mapping libraries to create Graphical and Geospatial visualisations based on information deduced from images.s"
+                "💎 Used a variety of Javascript mapping libraries to create Graphical and Geospatial visualisations based on information deduced from images."
             ]
         }
     ]
