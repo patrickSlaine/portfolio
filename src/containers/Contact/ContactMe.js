@@ -46,7 +46,7 @@ export  default function ContactMe(props){
                     Contact Me
                 </h1>
                 <p>
-                    You can contact me at my linked accounts or fill out the form below and I will contact you as quickly as possible.
+                    You can contact me on LinkedIn or fill out the form below and I will contact you as quickly as possible.
                 </p>
                 <SocialMedia/>
                 <br/>
