@@ -9,6 +9,7 @@ import EducationAchievements from './Pages/EducationAchievements';
 import Experience from './Pages/Experience';
 import Contact from './Pages/Contact';
 import Projects from './Pages/Projects';
+import Blogs from './Pages/Blogs';
 
 function App() {
 
@@ -53,6 +54,13 @@ const Home = WithSuspense(lazy(()=> import("./Pages/Home")));
             path="/contact"
             exact
             element={<Contact
+                      theme={themes[theme]}
+                      setTheme={setTheme}/>}
+          />
+          <Route
+            path="/blogs"
+            exact
+            element={<Blogs
                       theme={themes[theme]}
                       setTheme={setTheme}/>}
           />
