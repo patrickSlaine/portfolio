@@ -1,5 +1,4 @@
 import React,{useState} from "react";
-import {style} from "glamor";
 import "./style.css";
 import { Form,Row,Col } from "react-bootstrap";
 import emailjs from "emailjs-com";
@@ -44,12 +43,12 @@ export default function Email(props){
           );
       };
 
-    const styles = style({
+    const styles = {
         backgroundColor: `${theme.accentBright}`,
         ":hover": {
           boxShadow: `0 5px 15px ${theme.accentBright}`,
         },
-      });
+      };
 
     return(
         <Fade bottom duration={6000}>
@@ -181,7 +180,7 @@ export default function Email(props){
                                         required
                                     />
                                 </Form.Group>
-                                    <button {...styles} className="general-btn" type="submit">
+                                    <button style={styles} className="general-btn" type="submit">
                                         Submit
                                     </button>
                                 </Form>      
