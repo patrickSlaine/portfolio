@@ -1,5 +1,4 @@
 import React from "react";
-import {style} from "glamor";
 import "./style.css";
 import Fade from "react-reveal";
 
@@ -7,17 +6,17 @@ export default function Certification(props){
     const certificate = props.certificate;
     const theme = props.theme;
 
-    const styles = style({
+    const styles = {
         boxShadow: `0px 2px 5px ${certificate.color_code}`,
         border: `1px solid ${certificate.color_code}`,
         ":hover": {
             boxShadow: `0 5px 15px ${certificate.color_code}`,
         },
-    });
+    };
 
     return(
         <Fade bottom duration={6000}>
-            <div {...styles}className="cert-card">
+            <div style={styles}className="cert-card">
                 <div className="content">
                     <a
                         href={certificate.certificate_link}
