@@ -1,12 +1,19 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Header from "../../components/Header";
 import EducationTitles from "../../containers/Education/EducationTitles";
 import {degree} from "../../portfolio";
 import DegreeCard from "../../components/Degree/DegreeCard";
 import Certifications from "../../containers/Certifications/Certifications";
 import Footer from "../../components/Footer";
+import {useLocation} from "react-router-dom";
+import ReactGA from "react-ga";
 
 export default function EducationAchievements(props){
+
+    const location = useLocation();
+    useEffect(() => {
+      ReactGA.pageview(location.pathname + location.search);
+    }, [location]);
 
     return (
         <div>

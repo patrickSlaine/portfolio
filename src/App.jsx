@@ -1,5 +1,5 @@
 import './App.css';
-import React,{useState,lazy} from 'react';
+import React,{useState, lazy} from 'react';
 import WithSuspense from "./components/WithSuspense";
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import { themes } from "./theme";
@@ -9,12 +9,16 @@ import EducationAchievements from './Pages/EducationAchievements';
 import Experience from './Pages/Experience';
 import Contact from './Pages/Contact';
 import Projects from './Pages/Projects';
+import ReactGA from "react-ga";
+import {applicationSettings} from "./portfolio";
 
 function App() {
 
   const [theme, setTheme] = useState("dark");
   
-const Home = WithSuspense(lazy(()=> import("./Pages/Home")));
+  const Home = WithSuspense(lazy(()=> import("./Pages/Home")));
+
+  ReactGA.initialize(applicationSettings.googleAnalyticsMeasurementId);
 
   return (
     <ThemeProvider theme={themes[theme]}>
