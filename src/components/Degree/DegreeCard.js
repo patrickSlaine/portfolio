@@ -7,7 +7,7 @@ export default function DegreeCard(props){
     const degree = props.degree;
     const theme = props.theme;
 
-    const style_img = style({
+    const style_img = {
         width: "220px",
         height: "auto",
         borderRadius: "25%",
@@ -25,7 +25,7 @@ export default function DegreeCard(props){
             marginBottom: "15px",
             width: "175px",
         }
-    });
+    };
 
     
   const card_body = style({
@@ -73,7 +73,7 @@ export default function DegreeCard(props){
   return (
     <div className="degree-card">
       <Fade left duration={3000}>
-        <div {...style_img}>
+        <div style={style_img}>
           <img
             style={{
               maxWidth: "100%",
