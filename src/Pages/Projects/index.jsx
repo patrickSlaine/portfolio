@@ -1,12 +1,19 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Header from "../../components/Header";
 import ProjectsIntroduction from "../../containers/Projects/ProjectsIntroduction";
 import ProjectsCard from "../../components/Project/ProjectsCard";
 import {projects} from "../../portfolio";
 import "./style.css";
 import Footer from "../../components/Footer";
+import ReactGA from "react-ga";
+import {useLocation} from "react-router-dom";
 
 export default function Projects(props){
+
+    const location = useLocation();
+    useEffect(() => {
+      ReactGA.pageview(location.pathname + location.search);
+    }, [location]);
 
     return (
         <div>

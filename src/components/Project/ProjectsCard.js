@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import {style} from "glamor";
 import Fade from "react-reveal";
 
 export default function ProjectsCard(props){
@@ -13,9 +12,10 @@ export default function ProjectsCard(props){
         win.focus();
     }
 
-    const styles = style({
+    const styles = {
         color: "rgb(88, 96, 105)",
-        backgroundColor: "rgb(255, 255, 255)",
+        backgroundColor:theme.projectCard, 
+        overflow:"auto",
         boxShadow: "rgba(0, 0, 0, 0.2) 0px 10px 30px -15px",
         padding: "2rem",
         cursor: "pointer",
@@ -25,17 +25,16 @@ export default function ProjectsCard(props){
         ":hover": {
           boxShadow: `${theme.imageDark} 0 2px 15px`,
         },
-      });
+      };
     
 
     return(
         <Fade bottom duration={6000}>
             <div className="flex-container">
                 <div
-                    {...styles}
+                    style={styles}
                     key={project.id}
                     onClick={()=>openNewWindow(project.url)}
-                    style={{backgroundColor:theme.projectCard, overflow:"auto"}}
                 >
                     <div className="repo-name-div">
                         <p className="repo-name" style={{color:theme.text}}>

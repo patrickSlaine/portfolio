@@ -204,3 +204,7 @@ export const projects = {
         }
     ]
 }
+
+export const applicationSettings = {
+    googleAnalyticsMeasurementId : "G-YX4CPHN7LQ"
+}
