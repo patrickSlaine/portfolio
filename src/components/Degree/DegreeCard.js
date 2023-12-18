@@ -1,5 +1,4 @@
 import React from "react";
-import { style } from "glamor";
 import "./style.css"
 import Fade from "react-reveal";
 
@@ -28,7 +27,7 @@ export default function DegreeCard(props){
     };
 
     
-  const card_body = style({
+  const card_body = {
     borderBottom: `1px solid ${theme.accentColor}`,
     borderLeft: `1px solid ${theme.accentColor}`,
     borderRight: `1px solid ${theme.accentColor}`,
@@ -45,9 +44,9 @@ export default function DegreeCard(props){
     "@media (max-width: 768px)": {
       width: "100%",
     },
-  });
+  };
 
-  const button_visit = style({
+  const button_visit = {
     textDecoration: "none",
     color: "rgba(255, 255, 255, 1)",
     background: `${theme.accentColor}`,
@@ -67,7 +66,10 @@ export default function DegreeCard(props){
       color: "rgba(255, 255, 255, 1)",
       boxShadow: `0 5px 10px ${theme.accentColor}`,
     },
-  });
+    marginRight: "23px",
+    float: "right",
+    backgroundColor: theme.accentColor,
+  };
 
   
   return (
@@ -86,7 +88,7 @@ export default function DegreeCard(props){
         </div>
       </Fade>
       <Fade right duration={3000}>
-        <div {...card_body}>
+        <div style={card_body}>
           <div
             className="body-header"
             style={{ backgroundColor: theme.accentColor }}
@@ -124,13 +126,7 @@ export default function DegreeCard(props){
               style={{ textDecoration: "none", textAlign: "center" }}
             >
               <p
-                {...button_visit}
-                style={{
-                  marginRight: "23px",
-                  textDecoration: "none",
-                  float: "right",
-                  backgroundColor: theme.accentColor,
-                }}
+                style={button_visit}
               >
                 Visit Website
               </p>
