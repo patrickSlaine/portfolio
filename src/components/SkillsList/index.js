@@ -1,4 +1,4 @@
-import { skills } from "../../portfolio";
+import { skills } from "../../assets/portfolio";
 import "./style.css";
 import React from "react";
 import Fade from "react-reveal";

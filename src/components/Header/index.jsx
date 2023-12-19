@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { NavLink, Link } from "react-router-dom";
-import {introduction} from "../../portfolio";
+import {introduction} from "../../assets/portfolio";
 
 function Header(props) {
   const theme = props.theme;
@@ -76,9 +76,17 @@ function Header(props) {
                 {"<Contact And CV/>"}
               </NavLink>
             </li>
-            {/* <button {...styles} onClick={changeTheme}>
-              {icon}
-            </button> */}
+            <li>
+              <NavLink
+                className="menui"
+                to="/blogs"
+                tag={Link}
+                activeStyle={{fontWeight:"bold"}}
+                style={{borderRadius:5,color:theme.text}}
+              >
+                {"<Blogs/>"}
+              </NavLink>
+            </li>
           </ul>
         </header>
       </div>

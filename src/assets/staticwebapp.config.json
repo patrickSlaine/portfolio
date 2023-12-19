@@ -18,6 +18,12 @@
         },
         {
             "route":"/contact"
+        },
+        {
+            "route":"/blogs"
+        },
+        {
+            "route":"/blogs/*"
         }
     ]
   }

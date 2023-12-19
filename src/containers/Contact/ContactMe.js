@@ -1,5 +1,4 @@
 import React from "react";
-import { style } from "glamor";
 import SocialMedia from "../../components/SocialMedia";
 import "./style.css";
 import Fade from "react-reveal";
@@ -8,27 +7,13 @@ export  default function ContactMe(props){
 
   const theme = props.theme;
     
-  const button_visit = style({
-    textDecoration: "none",
-    color: "rgba(255, 255, 255, 1)",
+  const button_visit = {
     background: `${theme.accentColor}`,
-    padding: "10px 10px",
-    marginTop: "25px",
-    borderRadius: "4px",
-    fontSize: "25px",
-    borderWidth: "0px",
-    marginBottom: "20px",
-    width: "200px",
-    height: "50px",
-    fontWeight: "bold",
-    fontFamily: "Google Sans Regular",
-    transition: "all 0.2s ease-in-out",
-    cursor: "pointer",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
       boxShadow: `0 5px 10px ${theme.accentColor}`,
     },
-  });
+  };
 
     return(
         <div className="contact-main">
@@ -51,15 +36,11 @@ export  default function ContactMe(props){
                 <SocialMedia/>
                 <br/>
                 <a
-                {...button_visit}
+                className="cv-button"
+                style={button_visit}
               href={require(`../../assets/files/Patrick Slaine's CV.pdf`)}
               target="_blank"
               rel="noopener noreferrer"
-              style={{ 
-                textDecoration: "none",
-                textAlign: "center",
-                backgroundColor: theme.accentColor
-              }}
             >
                 See my CV
             </a>
