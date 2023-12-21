@@ -35,6 +35,23 @@
     font-size: 20px;
 }
 
+.cv-button{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 20px 10px 20px;
+    margin-top: 25px;
+    border-radius:4px;
+    font-size: 25px;
+    border-width: 0px;
+    margin-bottom: 20px;
+    width:fit-content;
+    height: 50px;
+    font-weight: bold;
+    font-family: Google Sans Regular;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
 .contact-text > *{
     flex:1;
 }

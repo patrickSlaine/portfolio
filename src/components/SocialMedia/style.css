@@ -1,6 +1,7 @@
 
 .social-media-div {
     font-size: 2em;
+    display:flex;
 }
 
 .icon-button i {
@@ -15,7 +16,6 @@
     margin-bottom:10px;
     position: relative;
     text-align: center;
-
 }
 
 .icon-button {

@@ -2,15 +2,18 @@ import './App.css';
 import React,{useState, lazy} from 'react';
 import WithSuspense from "./components/WithSuspense";
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
-import { themes } from "./theme";
+import { themes } from "./assets/theme";
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from "./global";
 import EducationAchievements from './Pages/EducationAchievements';
 import Experience from './Pages/Experience';
 import Contact from './Pages/Contact';
 import Projects from './Pages/Projects';
+import Blogs from './Pages/BlogsSummary';
 import ReactGA from "react-ga";
-import {applicationSettings} from "./portfolio";
+import Blog from "./Pages/Blog";
+import { blogs } from './assets/blogs';
+import {applicationSettings} from "./assets/portfolio";
 
 function App() {
 
@@ -60,6 +63,24 @@ function App() {
                       theme={themes[theme]}
                       setTheme={setTheme}/>}
           />
+          {blogs.data.length === 0?
+          <></>:
+          <>
+          <Route
+            path="blogs/:id"
+            exact
+            element={<Blog
+                      theme={themes[theme]}
+                      setTheme={setTheme}/>}
+          />
+          <Route
+            path="/blogs"
+            exact
+            element={<Blogs
+                      theme={themes[theme]}
+                      setTheme={setTheme}/>}
+          />
+          </>}
           <Route 
             path="*" 
             element={

@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import {certifications} from "../../portfolio";
+import {certifications} from "../../assets/portfolio";
 import Certification from "../../components/Certification/Certification";
 
 export default function Certifications(props){

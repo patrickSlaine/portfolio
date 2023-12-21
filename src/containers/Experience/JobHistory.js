@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { experience } from "../../portfolio";
+import { experience } from "../../assets/portfolio";
 import ExperienceCard from "../../components/Experience/ExperienceCard";
 import Fade from "react-reveal";
 

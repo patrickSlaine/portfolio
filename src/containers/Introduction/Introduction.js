@@ -1,5 +1,5 @@
 import React from "react";
-import {introduction} from "../../portfolio";
+import {introduction} from "../../assets/portfolio";
 import "./style.css";
 import SocialMedia from "../../components/SocialMedia";
 import Fade from "react-reveal";

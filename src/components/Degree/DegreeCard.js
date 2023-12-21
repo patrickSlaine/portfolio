@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
 import Fade from "react-reveal";
 
 export default function DegreeCard(props){
@@ -61,6 +61,8 @@ export default function DegreeCard(props){
     fontWeight: "bold",
     fontFamily: "Google Sans Regular",
     transition: "all 0.2s ease-in-out",
+    marginRight: "23px",
+    float: "right",
     cursor: "pointer",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",

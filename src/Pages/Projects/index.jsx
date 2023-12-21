@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import Header from "../../components/Header";
 import ProjectsIntroduction from "../../containers/Projects/ProjectsIntroduction";
 import ProjectsCard from "../../components/Project/ProjectsCard";
-import {projects} from "../../portfolio";
+import {projects} from "../../assets/portfolio";
 import "./style.css";
 import Footer from "../../components/Footer";
 import ReactGA from "react-ga";
