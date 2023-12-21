@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import {socialMediaLinks} from "../../portfolio";
+import {socialMediaLinks} from "../../assets/portfolio";
 import { SocialIcon } from "react-social-icons";
 export default function SocialMedia(){
     return(

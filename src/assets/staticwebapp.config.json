@@ -20,6 +20,12 @@
             "route":"/contact"
         },
         {
+            "route":"/blogs"
+        },
+        {
+            "route":"/blogs/*"
+        },
+        {
             "route":"/sitemap"
         }
     ]
