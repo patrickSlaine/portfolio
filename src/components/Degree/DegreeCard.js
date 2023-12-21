@@ -68,6 +68,9 @@ export default function DegreeCard(props){
       color: "rgba(255, 255, 255, 1)",
       boxShadow: `0 5px 10px ${theme.accentColor}`,
     },
+    marginRight: "23px",
+    float: "right",
+    backgroundColor: theme.accentColor,
   };
 
   

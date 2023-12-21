@@ -24,6 +24,9 @@
         },
         {
             "route":"/blogs/*"
+        },
+        {
+            "route":"/sitemap"
         }
     ]
   }
