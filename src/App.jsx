@@ -12,7 +12,7 @@ import Projects from './Pages/Projects';
 import Blogs from './Pages/BlogsSummary';
 import ReactGA from "react-ga";
 import Blog from "./Pages/Blog";
-
+import { blogs } from './assets/blogs';
 import {applicationSettings} from "./assets/portfolio";
 
 function App() {
@@ -63,6 +63,9 @@ function App() {
                       theme={themes[theme]}
                       setTheme={setTheme}/>}
           />
+          {blogs.data.length === 0?
+          <></>:
+          <>
           <Route
             path="blogs/:id"
             exact
@@ -77,6 +80,7 @@ function App() {
                       theme={themes[theme]}
                       setTheme={setTheme}/>}
           />
+          </>}
           <Route 
             path="*" 
             element={

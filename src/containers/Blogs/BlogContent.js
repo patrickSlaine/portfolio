@@ -15,16 +15,24 @@ export default function BlogContent(props){
 
 
     return(
-
         <>
             {loading? 
             <>
             </>
-            :<>
+            :<article itemScope itemType="http://schema.org/Article">
+                <div className="articleTitle" itemProp="about">{blogContent.title}</div>
+                <div className="information">
+                    <div className="info" itemProp="author">Author - {blogContent.author}</div>
+                    <div className="info" itemProp="datePublished">Published - {blogContent.publishedDate}</div>
+                    <div className="info" itemProp="dateModified">Updated - {blogContent.updatedDate}</div>
+                </div>
+                <br/>
+                <div itemProp="articleBody">
                 {blogContent.content.map((object,index)=>{
-                    return <ContentTypeSelector content={object} theme={props.theme} id={index}/>
+                    return <ContentTypeSelector type={blogContent} content={object} theme={props.theme} id={index}/>
                 })}
-            </>
+                </div>
+            </article>
             }
         </>
     )

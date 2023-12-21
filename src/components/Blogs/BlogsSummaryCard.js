@@ -22,7 +22,7 @@ export default function BlogSummaryCard(props){
             className="blog-summary-card"
             style={style_card}
         >
-            <Link relative to={"/blogs/"+blog.blogId} style={{ color: 'inherit',textDecoration: 'none' }}>
+            <Link className="blog-link" relative to={"/blogs/"+blog.blogId} style={{ color: 'inherit',textDecoration: 'none' }}>
                 <div className="blog-summary-image">
                     <img
                         style={{
@@ -49,8 +49,13 @@ export default function BlogSummaryCard(props){
                                 {blog.title}
                             </h2>
                         </div>
-                        <div className="body-header-date">
-                            Published: {blog.publishedDate}
+                        <div className="body-header-dates">
+                            <div className="body-header-date">
+                                Published: {blog.publishedDate}
+                            </div>
+                            <div className="body-header-date">
+                                Updated: {blog.updatedDate}
+                            </div>
                         </div>
                     </div>
                     <div className="body-content">

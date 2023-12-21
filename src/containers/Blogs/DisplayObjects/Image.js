@@ -5,7 +5,8 @@ export default function Image(props){
 
     return (
         <img 
-            className="image-content" 
+            className="image-content"
+            itemProp="image"
             src={require(`../../../assets/images/blogs/`+props.value)}
             alt={props.alt}
         />
