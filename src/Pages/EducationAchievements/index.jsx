@@ -23,6 +23,7 @@ export default function EducationAchievements(props){
                 <link rel="canonical" href="https://www.patrickslaine.co.uk/education" />
                 <meta name="description" property="og:description" content="Patrick attended Queen's University Belfast to study Software Engineer, he achieved a First Class Honours. Throughout my years in the industry, I have also achieved a number of PRofessional Qualifications such as Microsoft Azure Certifications."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <title>Patrick Slaine | Software Engineer | Education</title>
                 <meta name="title" property="og:title" content="Patrick Slaine | Software Engineer | Education"/>
                 <meta name="type" property="og:type" content="website"/>
                 <meta name="image" property="og:image" content="https:/www.patrickslaine.co.uk/images/Patrick Slaine Headshot.jpg"/>
