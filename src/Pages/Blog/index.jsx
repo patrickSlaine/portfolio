@@ -5,6 +5,8 @@ import Footer from "../../components/Footer";
 import {useParams,Navigate} from "react-router-dom";
 import {blogs} from "../../assets/blogs";
 import BlogContent from "../../containers/Blogs/BlogContent"; 
+import { Helmet } from "react-helmet";
+
 export default function Blog(props){
 
     const blogId = useParams();
@@ -44,6 +46,17 @@ export default function Blog(props){
         <>
             {validBlog ?
             <>
+                <Helmet>
+                    <meta charSet="utf-8"/>
+                    <link rel="canonical" href={"https://www.patrickslaine.co.uk/blogs/"+blog.blogId} />
+                    <meta name="description" property="og:description" content={blog.summary}/>
+                    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                    <meta name="title" property="og:title" content={blog.title}/>
+                    <meta name="type" property="og:type" content="website"/>
+                    <meta name="image" property="og:image" content={"https:/www.patrickslaine.co.uk/images/"+blog.summary_image_path}/>
+                    <meta name="url" property="og:url" content="https://www.patrickslaine.co.uk"/>
+                    <meta name="keywords" content={blog.keywords}/>
+                </Helmet>
                 <Header
                     theme={props.theme}
                     setTheme={props.setTheme}
