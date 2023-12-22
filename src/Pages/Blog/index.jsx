@@ -51,6 +51,7 @@ export default function Blog(props){
                     <link rel="canonical" href={"https://www.patrickslaine.co.uk/blogs/"+blog.blogId} />
                     <meta name="description" property="og:description" content={blog.summary}/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                    <title>{blog.title}</title>
                     <meta name="title" property="og:title" content={blog.title}/>
                     <meta name="type" property="og:type" content="website"/>
                     <meta name="image" property="og:image" content={"https:/www.patrickslaine.co.uk/images/"+blog.summary_image_path}/>
