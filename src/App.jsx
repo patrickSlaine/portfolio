@@ -1,5 +1,5 @@
 import './App.css';
-import React,{useState, lazy} from 'react';
+import React,{useState,useEffect, lazy} from 'react';
 import WithSuspense from "./components/WithSuspense";
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import { themes } from "./assets/theme";
@@ -22,6 +22,10 @@ function App() {
   const Home = WithSuspense(lazy(()=> import("./Pages/Home")));
 
   ReactGA.initialize(applicationSettings.googleAnalyticsMeasurementId);
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   return (
     <ThemeProvider theme={themes[theme]}>
