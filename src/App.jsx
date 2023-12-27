@@ -10,7 +10,7 @@ import Experience from './Pages/Experience';
 import Contact from './Pages/Contact';
 import Projects from './Pages/Projects';
 import Blogs from './Pages/BlogsSummary';
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 import Blog from "./Pages/Blog";
 import { blogs } from './assets/blogs';
 import {applicationSettings} from "./assets/portfolio";
@@ -21,7 +21,7 @@ function App() {
   
   const Home = WithSuspense(lazy(()=> import("./Pages/Home")));
 
-  ReactGA.initialize(applicationSettings.googleAnalyticsMeasurementId);
+  ReactGA.initialize(applicationSettings.googleAnalyticsMeasurementId,{ debug: true });
 
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
