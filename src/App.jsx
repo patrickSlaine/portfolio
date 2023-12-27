@@ -21,7 +21,7 @@ function App() {
   
   const Home = WithSuspense(lazy(()=> import("./Pages/Home")));
 
-  ReactGA.initialize(applicationSettings.googleAnalyticsMeasurementId,{ debug: true });
+  ReactGA.initialize(applicationSettings.googleAnalyticsMeasurementId);
 
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
