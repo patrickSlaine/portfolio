@@ -19,7 +19,7 @@ export default function ProjectsIntroduction(props){
                         Projects
                     </h1>
                     <p>
-                        My curiosity to continue learning about new technologies has driven me to take on new challenges. My primary focus is too continue to upskill as a Full-Stack Developer. The projects listed I have finished and I am currently working on are listed below. However not all of the projects are currently available on my GitHub.
+                    I am striving to create a portfolio of projects that demonstrate my competency with a wide range of technologies. My long-term vision is to become an experienced Full-Stack Developer and I endeavour share my experience with others through my projects and my Blog. The listed projects are the ones which I am currently working on. Feel free to reach out if they interest you.
                     </p>
                 </div>
             </Fade>

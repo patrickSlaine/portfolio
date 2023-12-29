@@ -180,13 +180,13 @@ export const projects = {
             id:"1",
             name:"My Portfolio",
             status:"Constant Development",
-            url:"",
+            url:"https://github.com/patrickSlaine/portfolio",
             descriptions:[
-                "💎 Portfolio to demonstrate my skills as a Front-End Developer.",
-                "💎 Functionality to send emails directly to me.",
+                "💎 Used to demonstrate my skills as a Front-End Developer.",
+                "💎 Functionality to render Blogging content dynamically and send emails to me.",
                 "💎 Leveraged react-router-dom to create a Responsive Single Page Application.",
                 "💎 Created a consistant overarching theme using CSS styling.",
-                "💎 Hosted using Azure App Service."
+                "💎 Hosted using Azure Static Web Hosting."
             ]
         },
         {
@@ -200,6 +200,34 @@ export const projects = {
                 "💎 Azure Functions was leveraged to run algorithms based on HTTP and Timer triggers.",
                 "💎 Azure Blob Storage was used to store a large volume of images.",
                 "💎 Used a variety of Javascript mapping libraries to create Graphical and Geospatial visualisations based on information deduced from images."
+            ]
+        },
+        {
+            id:"3",
+            name:"Java Storage Microservice",
+            status: "In Development",
+            url:"",
+            descriptions:[
+                "💎 Provides user with CRUD functionality to manage files stored on Azure Blob Storage.",
+                "💎 Built using Java, Spring, Docker & Azure.",
+                "💎 Communication over HTTP endpoints.",
+                "💎 Tested using JUnit & Moq.",
+                "💎 The project will become open-source upon completion of V1.0.0.",
+                "💎 Managed using GitHub Projects."
+            ]
+        },
+        {
+            id:"4",
+            name:".NET Text Message Microservice",
+            status: "In Planning",
+            url:"",
+            descriptions:[
+                "💎 This service interacts with Amazon SNS to send SMS messages to user provided phone numbers.",
+                "💎 Built using C# / .NET 8, Docker, SQL Server & Azure.",
+                "💎 Communication over HTTP endpoints.",
+                "💎 Will be tested using XUnit & Moq",
+                "💎 Version 1.0 will be made Open-Source.",
+                "💎 Managed using GitHub Projects",
             ]
         }
     ]
