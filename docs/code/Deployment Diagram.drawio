@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" modified="2023-12-30T08:58:39.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XYGmhttXJZFoB0WWbfGf" version="22.1.16" type="device">
+  <diagram name="Page-1" id="8_hTJTNPzm-TBV7U2eVF">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="250" width="600" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="16" y="412" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-5" value="Software Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-7" value="Development Environment&lt;br&gt;(Visual Studio Code)" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="310" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-12" value="GitHub&lt;br&gt;Repository" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="1">
+          <mxGeometry x="460" y="300" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-16" value="Azure Static Web Hosting" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.website_generic;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="460" width="80" height="60.5" as="geometry" />
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-17" value="Domain &lt;br&gt;Name Provider" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/CustomDomain.svg;" vertex="1" parent="1">
+          <mxGeometry x="255" y="469.25" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-20" value="Mobile" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="1">
+          <mxGeometry x="55" y="442" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-21" value="Computer" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="552" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="okxLcLfF9Hd3wLIsB-na-5" target="okxLcLfF9Hd3wLIsB-na-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="370" as="sourcePoint" />
+            <mxPoint x="210" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-23" value="Develops Code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="okxLcLfF9Hd3wLIsB-na-22">
+          <mxGeometry x="0.2248" y="-3" relative="1" as="geometry">
+            <mxPoint x="-19" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="okxLcLfF9Hd3wLIsB-na-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="490" as="sourcePoint" />
+            <mxPoint x="410" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-30" value="Domain Forwarding" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="okxLcLfF9Hd3wLIsB-na-29">
+          <mxGeometry x="0.3543" y="1" relative="1" as="geometry">
+            <mxPoint x="-25" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="okxLcLfF9Hd3wLIsB-na-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="390" as="sourcePoint" />
+            <mxPoint x="480" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-32" value="GitHub Action&lt;br&gt;deploys Code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="okxLcLfF9Hd3wLIsB-na-31">
+          <mxGeometry x="-0.1771" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.978;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="okxLcLfF9Hd3wLIsB-na-7" target="okxLcLfF9Hd3wLIsB-na-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="340" as="sourcePoint" />
+            <mxPoint x="420" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-34" value="Commits Code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="okxLcLfF9Hd3wLIsB-na-33">
+          <mxGeometry x="0.2068" y="3" relative="1" as="geometry">
+            <mxPoint x="-13" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-37" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Users&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="409" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-38" value="" style="endArrow=none;html=1;rounded=0;exitX=0.997;exitY=0.332;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.012;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="okxLcLfF9Hd3wLIsB-na-36" target="okxLcLfF9Hd3wLIsB-na-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="510" as="sourcePoint" />
+            <mxPoint x="240" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okxLcLfF9Hd3wLIsB-na-39" value="Http Requests" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="okxLcLfF9Hd3wLIsB-na-38">
+          <mxGeometry x="-0.1782" y="3" relative="1" as="geometry">
+            <mxPoint x="8" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
