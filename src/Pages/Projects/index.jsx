@@ -15,7 +15,6 @@ export default function Projects(props){
                 <meta charSet="utf-8"/>
                 <link rel="canonical" href="https://www.patrickslaine.co.uk/projects" />
                 <meta name="description" property="og:description" content="Find out more about the Personal Projects that I have worked on. | Microsoft Azure | Javascript | Java | .NET"/>
-                <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title>Patrick Slaine | Software Engineer | Projects</title>
                 <meta name="title" property="og:title" content="Patrick Slaine | Software Engineer | Projects"/>
                 <meta name="type" property="og:type" content="website"/>
