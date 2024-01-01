@@ -13,7 +13,6 @@ export default function Contact(props){
                 <meta charSet="utf-8"/>
                 <link rel="canonical" href="https://www.patrickslaine.co.uk/contact" />
                 <meta name="description" property="og:description" content="Check out my CV and get in touch with me by sending me and email."/>
-                <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title>Patrick Slaine | Software Engineer | Contact Me</title>
                 <meta name="title" property="og:title" content="Patrick Slaine | Software Engineer | Contact Me"/>
                 <meta name="type" property="og:type" content="website"/>

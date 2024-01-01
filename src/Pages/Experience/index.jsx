@@ -13,7 +13,6 @@ export default function Experience(props){
                     <meta charSet="utf-8"/>
                     <link rel="canonical" href="https://www.patrickslaine.co.uk/experience" />
                     <meta name="description" property="og:description" content="Patrick has gained experience across a variety of sectors. Using a wide range of technology stacks such a React, .NET & Java. Find out more about my experience and how I can add value."/>
-                    <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <title>Patrick Slaine | Software Engineer | Experience</title>
                     <meta name="title" property="og:title" content="Patrick Slaine | Software Engineer | Experience"/>
                     <meta name="type" property="og:type" content="website"/>
