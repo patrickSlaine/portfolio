@@ -58,10 +58,6 @@ exports.blogs = {
             summary: "An introduction to the important aspects of Microservice Documentation. How you should structure your Readme documentation... The Benefits of maintaining Living Documentation and how you can ensure knowledge of decision-making is maintained with time.",
             content:[
                 {
-                    type:"header",
-                    value:"Microservice Readme Documentation"
-                },
-                {
                     type:"paragraph",
                     value:"Software Engineers are quickly moving away from maintaining Monolithic applications and breaking their codebases down into microservices. Microservice adoption has had a range of benefits from improved scalability to faster time to market. However, since microservices are often developed by separate teams, there is a need to standardize the documentation process to facilitate fast developer onboarding and to reduce the accumulation of technical debt. \nI would like to share with you the steps which I have been following to document my microservice applications, in both enterprise and personal development."
                 },
