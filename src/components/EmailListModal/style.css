@@ -1,0 +1,22 @@
+.email-list-main{
+    width:50%;
+    margin-top: 75px;
+    margin-left: 25%;;
+    margin-right: 25%;
+    height:400px;
+    z-index: 1;
+    background-color: #363131;
+    position:absolute;
+    padding: 16px 32px 16px 32px;
+    border-radius: 20px;
+}
+
+.form-header-text{
+    float:left;
+    width:80%;
+}
+
+.form-close-button{
+    float:right;
+    width:20%;
+}

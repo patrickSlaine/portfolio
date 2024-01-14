@@ -4,6 +4,7 @@ import Introduction from "../../containers/Introduction/Introduction";
 import SkillsList from "../../components/SkillsList";
 import Footer from "../../components/Footer";
 import {Helmet} from "react-helmet";
+import EmailListModal from "../../components/EmailListModal";
 
 export default function Layout(props){
 
@@ -22,6 +23,9 @@ export default function Layout(props){
                 <meta name="url" property="og:url" content="https://www.patrickslaine.co.uk"/>
                 <meta name="keywords" content="Patrick Slaine, Software Engineer, Software Developer, React Developer, .NET Developer, Powerlifter"/>
             </Helmet>
+            <EmailListModal
+                theme={props.theme}
+            />
             <Header
                 theme={props.theme}
                 setTheme={props.setTheme}
