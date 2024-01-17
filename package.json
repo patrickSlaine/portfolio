@@ -3,9 +3,6 @@
   "version": "1.1.6",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.2",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "emailjs-com": "^3.2.0",
     "react-bootstrap": "^2.7.2",

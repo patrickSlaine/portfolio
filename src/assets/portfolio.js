@@ -215,20 +215,6 @@ export const projects = {
                 "💎 The project will become open-source upon completion of V1.0.0.",
                 "💎 Managed using GitHub Projects."
             ]
-        },
-        {
-            id:"4",
-            name:".NET Text Message Microservice",
-            status: "In Planning",
-            url:"",
-            descriptions:[
-                "💎 This service interacts with Amazon SNS to send SMS messages to user provided phone numbers.",
-                "💎 Built using C# / .NET 8, Docker, SQL Server & Azure.",
-                "💎 Communication over HTTP endpoints.",
-                "💎 Will be tested using XUnit & Moq",
-                "💎 Version 1.0 will be made Open-Source.",
-                "💎 Managed using GitHub Projects",
-            ]
         }
     ]
 }
