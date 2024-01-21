@@ -4,6 +4,8 @@ import "./style.css";
 export default function Section(props){
 
     return (
-        <div className="sectionHeader">{props.value}</div>
+        <a className="sectionHeaderLink" href={"#"+props.value}>
+            <div className="sectionHeader">{props.value}</div>
+        </a>
     )
 }
