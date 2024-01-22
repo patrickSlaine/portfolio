@@ -10,6 +10,7 @@ export default function BlogSummaryCard(props){
         borderBottom: `1px solid ${theme.accentColor}`,
         borderLeft: `1px solid ${theme.accentColor}`,
         borderRight: `1px solid ${theme.accentColor}`,
+        borderTop: `1px solid ${theme.accentColor}`,
         boxShadow: `0px 1px 5px ${theme.accentColor}`,
         ":hover": {
             color: "rgba(255, 255, 255, 1)",
