@@ -19,15 +19,20 @@ export default function BlogContent(props){
             {loading? 
             <>
             </>
-            :<article itemScope itemType="http://schema.org/Article">
-                <div className="articleTitle" itemProp="about">{blogContent.title}</div>
-                <div className="information">
-                    <div className="info" itemProp="author">Author - {blogContent.author}</div>
-                    <div className="info" itemProp="datePublished">Published - {blogContent.publishedDate}</div>
-                    <div className="info" itemProp="dateModified">Updated - {blogContent.updatedDate}</div>
+            :<article className="article" itemScope itemType="http://schema.org/Article">
+                <img className="articleImage" itemProp="image" alt={blogContent.title} src={require(`../../assets/images/blogs/${blogContent.summary_image_path}`)}/>
+                <div className="articleHeader">
+                    <div className="articleTitle" itemProp="about">{blogContent.title}</div>
+                    <div className="subTitle" itemProp="abstract">{blogContent.introductionParagraph}</div>
+                    <div className="information">
+                        <img className="person-image" alt="" src={require(`../../assets/images/blogs/PatrickSlaineHeadshot.jpg`)}/>
+                        <div className="info-div">
+                            <div className="info" itemProp="author">By {blogContent.author}</div>
+                            <div className="info" itemProp="datePublished">{blogContent.publishedDate}</div>
+                        </div>
+                    </div>
                 </div>
-                <br/>
-                <div itemProp="articleBody">
+                <div className="articleBody" itemProp="articleBody">
                 {blogContent.content.map((object,index)=>{
                     return <ContentTypeSelector type={blogContent} content={object} theme={props.theme} id={index}/>
                 })}

@@ -66,17 +66,6 @@ function Header(props) {
                 {"<Projects/>"}
               </NavLink>
             </li>
-            <li>
-              <NavLink
-                className="menui"
-                to="/contact"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                {"<Contact And CV/>"}
-              </NavLink>
-            </li>
             {blogs.data.length === 0?
             <></>:
             <li>
@@ -91,6 +80,17 @@ function Header(props) {
               </NavLink>
             </li>
             }
+            <li>
+              <NavLink
+                className="menui"
+                to="/contact"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                {"<Contact And CV/>"}
+              </NavLink>
+            </li>
           </ul>
         </header>
       </div>
