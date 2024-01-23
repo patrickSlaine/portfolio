@@ -5,9 +5,20 @@ export default function Footer(props){
     return(
         <div className="footer">
             <div className="footer-text">
-                <h4 style={{color:props.theme.secondaryText}}>
-                Made using <span aria-label="" role="img">⚛️</span> by Patrick Slaine
-                </h4>
+                <div className="footerText" style={{color:props.theme.text}}>
+                    PatrickSlaine
+                </div>
+                <div className="footerSubtext" style={{color:props.theme.secondaryText}}>
+                    Copyright &copy; 2024, Patrick Slaine.
+                </div>
+                <div className="footerLinks">
+                    <a className="footerLink" href="https://www.linkedin.com/in/patrick-slaine/" style={{color:props.theme.secondaryText}}>
+                        LinkedIn
+                    </a>
+                    <a className="footerLink" href="https://www.github.com/patrickSlaine/" style={{color:props.theme.secondaryText}}>
+                        GitHub
+                    </a>
+                </div>
             </div>
         </div>
     )
